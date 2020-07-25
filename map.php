@@ -4,11 +4,11 @@
         https://www.github.com/PlayersMapAMXX/
     */
 
-    $DB_Server = "-"; $DB_Name = "-";
+    $DB_Server = "-";
+    $DB_Name = "-";
     $DB_Username = "-";
     $DB_Password = '-';
     $DB_Port = "-";
- 
 
     $DB = mysqli_connect($DB_Server, $DB_Username, $DB_Password, $DB_Name);
 
