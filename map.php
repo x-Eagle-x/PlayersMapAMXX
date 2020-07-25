@@ -8,8 +8,9 @@
     $DB_Username = "-";
     $DB_Password = '-';
     $DB_Port = "-";
+    $DB_Name = "-";
 
-    $DB = mysqli_connect($DB_Server, $DB_Username, $DB_Password, "einsdatabase");
+    $DB = mysqli_connect($DB_Server, $DB_Username, $DB_Password, $DB_Name);
 
     $QueryResult = $DB->query("select * from players");
     $Data = array();
