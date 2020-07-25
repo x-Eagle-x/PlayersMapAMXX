@@ -1,3 +1,8 @@
+/*
+    PlayersMap v1.0
+    https://www.github.com/PlayersMapAMXX/
+*/
+
 #include <amxmodx>
 #include <geoip>
 #include <sqlx>
