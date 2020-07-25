@@ -36,6 +36,7 @@ public plugin_precache()
 
     new szInitQuery[64];
     formatex(szInitQuery, charsmax(szInitQuery), "CREATE TABLE IF NOT EXISTS players (id varchar(3), value int);");
+    SQL_ThreadQuery(g_MySQLTuple, "@SQL_Handler", szInitQuery);
 }
 
 public client_authorized(iPlayer)
