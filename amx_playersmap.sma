@@ -18,7 +18,7 @@ new Handle:g_MySQLConnection, Handle:g_MySQLTuple;
 new Trie:g_PlayersCountry;
 new g_szPlayerIPAddresses[MAX_PLAYERS][17];
 
-public plugin_precache()
+public plugin_init()
 {
     register_plugin("PlayersMap", VERSION, "thEsp");
 
