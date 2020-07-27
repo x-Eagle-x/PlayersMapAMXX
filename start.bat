@@ -1,2 +1,1 @@
-REM Make sure php is installed and added to %path%
-php -t . -S localhost:80
+php -t . -S 0.0.0.0:80
